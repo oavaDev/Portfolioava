@@ -18,16 +18,16 @@ const HeroSection = () => {
           />
         </div>
         <div className='md:w-3/5 md:mt-2 md:ml-200'>
-          <h1 className='font-bold text-4xl mt-6 md:text-7xl '>
+          <h2 className='font-bold text-4xl mt-6 md:text-7xl '>
             Hi, I&#39;m Omar!
-          </h1>
+          </h2>
           <p className='text-lg mt-4 mb-6 md:text-2xl'>
             I&#39;m a{' '}
             <span className='font-semibold text-teal-600'>
               Systems Engineer student
             </span>{' '}
-            based in Barranquilla, CO. Learning new technlogies and improving my
-            skills
+            based in Barranquilla, Colombia. Learning new technlogies and
+            improving my skills
           </p>
           <Link
             to='projects'
