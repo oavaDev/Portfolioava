@@ -58,6 +58,7 @@ const ProjectSection = () => {
                   <div className=' mt-8 md:w-1/2'>
                     <Link href={item.link} target='_blank'>
                       <Image
+                        loading='lazy'
                         src={item.image}
                         alt={item.name}
                         width={1000}
