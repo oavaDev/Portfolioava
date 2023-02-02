@@ -35,7 +35,7 @@ const AboutSection = () => {
               <span className='font-bold'>self-learner </span>
               and
               <span className='font-bold'> team-worker </span>Systems Engineer
-              based in Barranquilla, Colombia.
+              student and full stack developer based in Barranquilla, Colombia.
             </p>
             <br />
             <p>

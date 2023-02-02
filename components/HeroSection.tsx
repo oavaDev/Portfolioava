@@ -26,6 +26,11 @@ const HeroSection = () => {
             <span className='font-semibold text-teal-600'>
               Systems Engineer student
             </span>{' '}
+            and
+            <span className='font-semibold text-teal-600'>
+              {' '}
+              Full stack developer
+            </span>{' '}
             based in Barranquilla, Colombia. Learning new technlogies and
             improving my skills
           </p>

@@ -35,13 +35,7 @@ const Navbar = () => {
       <div className='justify-between md:items-center md:flex'>
         <div className='flex items-center justify-between py-3'>
           <div className='md:py-5 md:block'>
-            <h2
-              className={`text-2xl font-bold text-${
-                theme === 'dark' ? 'white' : 'black'
-              }`}
-            >
-              Omar Vega
-            </h2>
+            <h2 className={`text-2xl font-bold`}>Omar Vega</h2>
           </div>
           <div className='md:hidden'>
             <button onClick={() => setNavbar(!navbar)}>
