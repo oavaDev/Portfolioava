@@ -51,7 +51,7 @@ const AboutSection = () => {
               stack projects.
             </p>
           </div>
-          <div className='m-0 md:w-1/2'>
+          <div className='m-0 md:w-1/2 pt-8'>
             <h5 className='text-center text-2xl font-bold mb-6 md:text-left'>
               My skills
             </h5>
