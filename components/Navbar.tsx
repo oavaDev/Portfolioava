@@ -31,11 +31,11 @@ const Navbar = () => {
   const currentTheme = theme === 'system' ? systemTheme : theme;
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className='w-full mx-auto px-4 bg-white shadow fixed top-0 z-50 sm:px-20 dark:bg-stone-900 dark:border-b dark:border-stone-600'>
+    <header className='w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600'>
       <div className='justify-between md:items-center md:flex'>
         <div className='flex items-center justify-between py-3'>
           <div className='md:py-5 md:block'>
-            <h2 className={`text-2xl font-bold`}>Omar Vega</h2>
+            <h2 className={`text-2xl font-bold text-white`}>Omar Vega</h2>
           </div>
           <div className='md:hidden'>
             <button onClick={() => setNavbar(!navbar)}>
@@ -81,7 +81,7 @@ const Navbar = () => {
                   onClick={() => setTheme('dark')}
                   className='bg-slate-100 p-2 rounded-xl'
                 >
-                  <RiMoonFill size={25} color='black' />
+                  <RiMoonFill size={25} />
                 </button>
               )}
             </div>

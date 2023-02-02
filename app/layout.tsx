@@ -13,7 +13,7 @@ export default function RootLayout({
       <head>
         <title>Portfolio</title>
       </head>
-      <body>
+      <body className=''>
         <ThemeProvider enableSystem={true} attribute='class'>
           <Navbar />
           {children}
