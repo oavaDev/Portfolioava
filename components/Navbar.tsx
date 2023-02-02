@@ -31,12 +31,18 @@ const Navbar = () => {
   const currentTheme = theme === 'system' ? systemTheme : theme;
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className='w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600'>
+    <header
+      className={`w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-${
+        currentTheme === 'dark' ? 'stone-900' : 'white'
+      } dark:border-b dark:border-stone-600`}
+    >
       <div className='justify-between md:items-center md:flex'>
         <div className='flex items-center justify-between py-3'>
           <div className='md:py-5 md:block'>
             <h2
-              className={`text-2xl font-bold text-neutral-900 hover:text-neutral-500 dark:text-neutral-100 cursor-pointer`}
+              className={`text-2xl font-bold text-${
+                currentTheme === 'dark' ? 'white' : 'black'
+              } hover:text-neutral-500  cursor-pointer`}
             >
               Omar Vega
             </h2>
@@ -63,9 +69,9 @@ const Navbar = () => {
                   <Link
                     key={i}
                     to={item.page}
-                    className={
-                      'block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100 cursor-pointer'
-                    }
+                    className={`block lg:inline-block text-${
+                      currentTheme === 'dark' ? 'stone-900' : 'text-neutral-100'
+                    } hover:text-neutral-500 cursor-pointer`}
                     activeClass='active'
                     spy={true}
                     smooth={true}
