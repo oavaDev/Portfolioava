@@ -23,6 +23,15 @@ const projects = [
     link: 'https://hifility.vercel.app/',
   },
   {
+    name: 'Rock, Paper and Scissors',
+    description:
+      'A web app where you can play rock, paper and scissors against the computer',
+    image:
+      'https://res.cloudinary.com/dj80e8qqp/image/upload/v1677369277/Screenshot_2023-02-25_185426_vkhrmo.png',
+    github: 'https://github.com/Cieth/Rock-paper-Scissors',
+    link: 'https://rock-paper-scissors-wine-three.vercel.app/',
+  },
+  {
     name: 'Multi-step Form',
     description:
       "It's a showcase of a multi-step form, made with react and using redux to manage states, completely responsive",
