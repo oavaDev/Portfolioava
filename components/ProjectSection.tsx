@@ -5,15 +5,6 @@ import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
 import SlideUp from './SlideUp';
 const projects = [
   {
-    name: 'Latam Airlines Clone',
-    description:
-      'A web app where you can search flights around Colombia, select luggage, your seats and book your flight',
-    image:
-      'https://res.cloudinary.com/dj80e8qqp/image/upload/v1669396136/1668785708715_qngpxz.jpg',
-    github: 'https://github.com/Cieth/latam-airline-frontend-clone',
-    link: 'https://latamairlines.vercel.app',
-  },
-  {
     name: 'Hifility',
     description:
       'An E-commerce web app built with NextJs and styled with NextUI where you can find many headphones, register,login, change your info and buy headphones. You may have to refresh twice if seeing demo',
@@ -21,6 +12,15 @@ const projects = [
       'https://res.cloudinary.com/dj80e8qqp/image/upload/v1669396043/Captura_de_pantalla_20221123_113659_zau7j2.png',
     github: 'https://github.com/Cieth/Hifility',
     link: 'https://hifility.vercel.app/',
+  },
+  {
+    name: 'Latam Airlines Clone',
+    description:
+      'A web app where you can search flights around Colombia, select luggage, your seats and book your flight',
+    image:
+      'https://res.cloudinary.com/dj80e8qqp/image/upload/v1669396136/1668785708715_qngpxz.jpg',
+    github: 'https://github.com/Cieth/latam-airline-frontend-clone',
+    link: 'https://latamairlines.vercel.app',
   },
   {
     name: 'Rock, Paper and Scissors',
