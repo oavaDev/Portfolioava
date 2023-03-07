@@ -18,7 +18,11 @@ const Footer = () => {
           Omar Vega<a href='/' className='hover:underline'></a>
         </div>
         <div className='flex flex-row items-center justify-center space-x-2 mb-1'>
-          <a href='https://github.com/cieth' target={'_blank'} rel='noreferrer'>
+          <a
+            href='https://github.com/oavaDev'
+            target={'_blank'}
+            rel='noreferrer'
+          >
             <AiOutlineGithub
               size={30}
               color={currentTheme === 'dark' ? 'white' : 'black'}
