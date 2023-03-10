@@ -36,9 +36,9 @@ const Navbar = () => {
     <>
       {mounted && (
         <header
-          className={`w-full mx-auto bg-dark animate-slideUpCubiBezier animation-delay-2   px-4 sm:px-20 fixed top-0 z-50 bg-${
-            currentTheme === 'dark' ? 'stone-900' : 'white'
-          } text-${currentTheme === 'dark' ? 'white' : 'black'}`}
+          className={`w-full sm:mx-auto sm:bg-dark animate-slideUpCubiBezier animation-delay-2  px-4 sm:px-20 fixed top-0 z-50 ${
+            currentTheme === 'dark' ? 'bg-stone-900' : 'bg-white'
+          } `}
         >
           <div className='justify-between md:items-center md:flex'>
             <div className='flex items-center justify-between py-3'>
