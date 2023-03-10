@@ -54,9 +54,15 @@ const Navbar = () => {
               <div className='md:hidden'>
                 <button onClick={() => setNavbar(!navbar)}>
                   {navbar ? (
-                    <IoMdClose size={30} color='black' />
+                    <IoMdClose
+                      size={30}
+                      color={currentTheme !== 'dark' ? 'black' : 'white'}
+                    />
                   ) : (
-                    <IoMdMenu size={30} color='black' />
+                    <IoMdMenu
+                      size={30}
+                      color={currentTheme !== 'dark' ? 'black' : 'white'}
+                    />
                   )}
                 </button>
               </div>
