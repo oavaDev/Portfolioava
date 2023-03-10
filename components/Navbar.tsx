@@ -30,10 +30,13 @@ const Navbar = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === 'system' ? systemTheme : theme;
   const [navbar, setNavbar] = useState(false);
+
+  
+
   return (
     <header
-      className={`w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50  bg-${
-        currentTheme === 'dark' ? 'stone-900' : 'white'
+      className={`w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 ${
+        currentTheme === 'dark' ? 'bg-stone-900' : 'bg-white'
       } `}
     >
       <div className='justify-between md:items-center md:flex'>
